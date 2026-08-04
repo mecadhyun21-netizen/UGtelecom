@@ -1,0 +1,6 @@
+{
+  "name": "UG Telecom - 유지텔레컴 공식 홈페이지",
+  "description": "대한민국 통신 인프라를 구축하는 ICT 전문기업 유지텔레컴(UG Telecom) 공식 홈페이지. 정보통신공사, 5G 기지국, 광통신망, 철도/도로 ITS, 스마트 빌딩, 유지보수 전문.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

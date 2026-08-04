@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #323A87;
+    --color-accent: #F2B21B;
+    --color-dark: #111111;
+    --color-light: #F5F7FA;
+    --color-tint: #E8EEFF;
+    --color-white: #FFFFFF;
+  }
+
+  body {
+    font-family: 'Pretendard', 'Inter', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    color: #111111;
+    background-color: #F5F7FA;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar for Enterprise Polish */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F7FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #323A87;
+}
+
+/* Glass & Card Effects */
+.ug-card {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ug-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(50, 58, 135, 0.08);
+}
+
+/* Smooth Focus Rings */
+*:focus-visible {
+  outline: 2px solid #323A87;
+  outline-offset: 2px;
+}
+
